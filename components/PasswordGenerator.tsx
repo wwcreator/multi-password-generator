@@ -9,7 +9,7 @@ export default function PasswordGenerator() {
   const [tab, setTab] = useState<TabKey>("random");
   const [length, setLength] = useState(20);
   const [useNumbers, setUseNumbers] = useState(true);
-  const [useSymbols, setUseSymbols] = useState(false);
+  const [useSymbols, setUseSymbols] = useState(true);
   const [value, setValue] = useState<string[]>([]);
   const [count, setCount] = useState(1);
 
